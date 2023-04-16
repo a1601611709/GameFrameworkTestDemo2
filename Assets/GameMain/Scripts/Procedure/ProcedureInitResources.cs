@@ -1,7 +1,7 @@
 namespace StarForceDemo
 {
-    public class ProcedureInitResources
+    public class ProcedureInitResources : ProcedureBase
     {
-        
+        public override bool UseNativeDialog { get; }
     }
 }

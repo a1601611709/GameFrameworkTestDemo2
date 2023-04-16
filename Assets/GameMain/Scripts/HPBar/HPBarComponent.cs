@@ -7,10 +7,13 @@ namespace StarForceDemo
 {
     public class HPBarComponent : GameFrameworkComponent
     {
+        [SerializeField]
         private HPBarItem m_HPBarItemTemplate = null;
 
+        [SerializeField]
         private Transform m_HPBarInstanceRoot = null;
 
+        [SerializeField]
         private int m_InstancePollCapacity = 16;
 
         private IObjectPool<HPBarItemObject> m_HPBarItemObjectPool = null;
@@ -43,6 +46,7 @@ namespace StarForceDemo
         {
 
         }
+        
 
         /// <summary>
         /// Update is called every frame, if the MonoBehaviour is enabled.

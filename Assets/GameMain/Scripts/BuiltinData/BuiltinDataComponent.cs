@@ -35,9 +35,8 @@ namespace StarForceDemo
                 return m_UpdateResourceFormTemplate;
             }
         }
-        //TODO:了解BuildInfo是干嘛的
         /// <summary>
-        /// 初始化BuildInfo
+        /// 初始化BuildInfo 游戏配置构建组件信息，以json写入，这里方便调用
         /// </summary>
         public void InitBuildInfo()
         {

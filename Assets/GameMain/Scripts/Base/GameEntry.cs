@@ -11,6 +11,7 @@ namespace StarForceDemo
         /// </summary>
         private void Start()
         {
+            string name = "";
             InitBuiltinComponents();
             InitCustomComponents();
         }
